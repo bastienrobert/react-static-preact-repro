@@ -24,6 +24,7 @@ export default {
     ]
   },
   plugins: [
+    'react-static-plugin-preact',
     [
       require.resolve('react-static-plugin-source-filesystem'),
       {
